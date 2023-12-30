@@ -1,0 +1,1022 @@
+# $Id: fr.po,v 1.2 2000/02/13 22:28:08 ralf Exp $
+# French translation for net-tools 1.51
+# Copyright (C) 1999 J.M.Vansteene <vanstee@worldnet.fr>
+msgid ""
+msgstr ""
+"Project-Id-Version: net-tools 1.51\n"
+"POT-Creation-Date: 2000-02-14 02:31+0100\n"
+"PO-Revision-Date: 1998-03-01 00:02+0100\n"
+"Last-Translator: J.M.Vansteene <vanstee@worldnet.fr>\n"
+"Language-Team:\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/netstat.c:383
+#, c-format
+msgid ""
+"(No info could be read for \"-p\": geteuid()=%d but you should be root.)\n"
+msgstr ""
+"(Pas d'infos lues pour \"-p\": geteuid()=%d mais vous devez être root.)\n"
+
+#: ../src/netstat.c:387
+msgid ""
+"(Not all processes could be identified, non-owned process info\n"
+" will not be shown, you would have to be root to see it all.)\n"
+msgstr ""
+"(Tous les processus ne peuvent être identifiés, les infos sur les processus\n"
+"non possédés ne seront pas affichées, vous devez être root pour les voir "
+"toutes.)\n"
+
+#: ../src/netstat.c:394 ../src/netstat.c:1089 ../src/netstat.c:1166
+msgid "LISTENING"
+msgstr "LISTENING"
+
+#: ../src/netstat.c:395
+msgid "CONN SENT"
+msgstr "CONN SENT"
+
+#: ../src/netstat.c:396 ../src/netstat.c:1168
+msgid "DISC SENT"
+msgstr "DISC SENT"
+
+#: ../src/netstat.c:397 ../src/netstat.c:464 ../src/netstat.c:809 ../src/netstat.c:1169
+msgid "ESTABLISHED"
+msgstr "ESTABLISHED"
+
+#: ../src/netstat.c:419
+msgid "Active NET/ROM sockets\n"
+msgstr "sockets NET/ROM actives\n"
+
+#: ../src/netstat.c:420
+msgid ""
+"User       Dest       Source     Device  State        Vr/Vs    Send-Q  "
+"Recv-Q\n"
+msgstr ""
+"Utilisatr  Dest       Source     Periph  Etat         Vr/Vs    Send-Q  "
+"Recv-Q\n"
+
+#: ../src/netstat.c:430 ../src/netstat.c:1208
+#, c-format
+msgid "Problem reading data from %s\n"
+msgstr ""
+
+#: ../src/netstat.c:465
+msgid "SYN_SENT"
+msgstr "SYN_SENT"
+
+#: ../src/netstat.c:466
+msgid "SYN_RECV"
+msgstr "SYN_RECV"
+
+#: ../src/netstat.c:467
+msgid "FIN_WAIT1"
+msgstr "FIN_WAIT1"
+
+#: ../src/netstat.c:468
+msgid "FIN_WAIT2"
+msgstr "FIN_WAIT2"
+
+#: ../src/netstat.c:469
+msgid "TIME_WAIT"
+msgstr "TIME_WAIT"
+
+#: ../src/netstat.c:470
+msgid "CLOSE"
+msgstr "CLOSE"
+
+#: ../src/netstat.c:471
+msgid "CLOSE_WAIT"
+msgstr "CLOSE_WAIT"
+
+#: ../src/netstat.c:472
+msgid "LAST_ACK"
+msgstr "LAST_ACK"
+
+#: ../src/netstat.c:473
+msgid "LISTEN"
+msgstr "LISTEN"
+
+#: ../src/netstat.c:474
+msgid "CLOSING"
+msgstr "CLOSING"
+
+#: ../src/netstat.c:544
+#, c-format
+msgid "warning, got bogus igmp6 line %d.\n"
+msgstr "attention, ligne igmp6 en erreur %d.\n"
+
+#: ../src/netstat.c:549 ../src/netstat.c:587 ../src/netstat.c:670 ../src/netstat.c:803
+#: ../src/netstat.c:935 ../src/netstat.c:940
+#, c-format
+msgid "netstat: unsupported address family %d !\n"
+msgstr "netstat: famille d'adresses pas supportée %d !\n"
+
+#: ../src/netstat.c:562 ../src/netstat.c:567 ../src/netstat.c:575 ../src/netstat.c:582
+#, c-format
+msgid "warning, got bogus igmp line %d.\n"
+msgstr "attention, ligne igmp6 en erreur %d.\n"
+
+#: ../src/netstat.c:666
+msgid "warning, got bogus tcp line.\n"
+msgstr "attention, ligne tcp en erreur.\n"
+
+#: ../src/netstat.c:704 ../src/netstat.c:855 ../src/netstat.c:975
+#, c-format
+msgid "off (0.00/%ld/%d)"
+msgstr "off (0.00/%ld/%d)"
+
+#: ../src/netstat.c:708
+#, fuzzy, c-format
+msgid "on (%2.2f/%ld/%d)"
+msgstr "on%d (%2.2f/%ld/%d)"
+
+#: ../src/netstat.c:713
+#, fuzzy, c-format
+msgid "keepalive (%2.2f/%ld/%d)"
+msgstr "on%d (%2.2f/%ld/%d)"
+
+#: ../src/netstat.c:718
+#, fuzzy, c-format
+msgid "timewait (%2.2f/%ld/%d)"
+msgstr "on%d (%2.2f/%ld/%d)"
+
+#: ../src/netstat.c:723 ../src/netstat.c:864 ../src/netstat.c:985
+#, c-format
+msgid "unkn-%d (%2.2f/%ld/%d)"
+msgstr "unkn-%d (%2.2f/%ld/%d)"
+
+#: ../src/netstat.c:799
+msgid "warning, got bogus udp line.\n"
+msgstr "attention, ligne udp en erreur.\n"
+
+#: ../src/netstat.c:817 ../src/netstat.c:1075 ../src/netstat.c:1108
+msgid "UNKNOWN"
+msgstr "INCONNU"
+
+#: ../src/netstat.c:860 ../src/netstat.c:980
+#, c-format
+msgid "on%d (%2.2f/%ld/%d)"
+msgstr "on%d (%2.2f/%ld/%d)"
+
+#: ../src/netstat.c:949
+msgid "warning, got bogus raw line.\n"
+msgstr "attention, ligne raw en erreur.\n"
+
+#: ../src/netstat.c:1028
+msgid "warning, got bogus unix line.\n"
+msgstr "attention, ligne unix en erreur.\n"
+
+#: ../src/netstat.c:1055
+msgid "STREAM"
+msgstr "STREAM"
+
+#: ../src/netstat.c:1059
+msgid "DGRAM"
+msgstr "DGRAM"
+
+#: ../src/netstat.c:1063
+msgid "RAW"
+msgstr "RAW"
+
+#: ../src/netstat.c:1067
+msgid "RDM"
+msgstr "RDM"
+
+#: ../src/netstat.c:1071
+msgid "SEQPACKET"
+msgstr "SEQPACKET"
+
+#: ../src/netstat.c:1080
+msgid "FREE"
+msgstr "LIBRE"
+
+#: ../src/netstat.c:1096
+msgid "CONNECTING"
+msgstr "ENCONNEXION"
+
+#: ../src/netstat.c:1100
+msgid "CONNECTED"
+msgstr "CONNECTE"
+
+#: ../src/netstat.c:1104
+msgid "DISCONNECTING"
+msgstr "ENDECONNEXION"
+
+#: ../src/netstat.c:1135
+msgid "Active UNIX domain sockets "
+msgstr "Sockets du domaine UNIX actives"
+
+#: ../src/netstat.c:1137 ../src/netstat.c:1666
+msgid "(servers and established)"
+msgstr "(serveurs et établies)"
+
+#: ../src/netstat.c:1140 ../src/netstat.c:1669
+msgid "(only servers)"
+msgstr "(seulement serveurs)"
+
+#: ../src/netstat.c:1142 ../src/netstat.c:1671
+msgid "(w/o servers)"
+msgstr "(sans serveurs)"
+
+#: ../src/netstat.c:1145
+msgid ""
+"\n"
+"Proto RefCnt Flags       Type       State         I-Node"
+msgstr ""
+"\n"
+"Proto RefCpt Indicatrs   Type       Etat          I-Node"
+
+#: ../src/netstat.c:1147
+msgid " Path\n"
+msgstr " Chemin\n"
+
+#: ../src/netstat.c:1167
+msgid "SABM SENT"
+msgstr "SABM SENT"
+
+#: ../src/netstat.c:1170
+msgid "RECOVERY"
+msgstr "RECOVERY"
+
+#: ../src/netstat.c:1184
+msgid "Active AX.25 sockets\n"
+msgstr "Sockets AX.25 actives\n"
+
+#: ../src/netstat.c:1185
+msgid "Dest       Source     Device  State        Vr/Vs    Send-Q  Recv-Q\n"
+msgstr "Dest       Source     Periph  Etat         Vr/Vs    Send-Q  Recv-Q\n"
+
+#: ../src/netstat.c:1228
+#, c-format
+msgid "problem reading data from %s\n"
+msgstr ""
+
+#: ../src/netstat.c:1279
+msgid ""
+"Active IPX sockets\n"
+"Proto Recv-Q Send-Q Local Address              Foreign Address            "
+"State"
+msgstr ""
+"Sockets IPX actives\n"
+"Proto Recv-Q Send-Q Adresse locale             Adresse distante           "
+"Etat"
+
+#: ../src/netstat.c:1281
+msgid " User"
+msgstr "Utilisatr"
+
+#: ../src/netstat.c:1315
+msgid "ESTAB"
+msgstr "ESTAB"
+
+#: ../src/netstat.c:1323
+msgid "UNK."
+msgstr "UNK."
+
+#: ../src/netstat.c:1367
+msgid "     - no statistics available -"
+msgstr ""
+
+#: ../src/netstat.c:1370
+msgid "[NO FLAGS]"
+msgstr "[PAS INDICATEURS]"
+
+#: ../src/netstat.c:1400
+msgid "Kernel Interface table\n"
+msgstr "Table d'interfaces noyau\n"
+
+#: ../src/netstat.c:1401
+msgid ""
+"Iface   MTU Met    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR "
+"Flg\n"
+msgstr ""
+"Iface   MTU Met    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR "
+"Indic\n"
+
+#: ../src/netstat.c:1404
+msgid "missing interface information"
+msgstr "informations d'interface manquantes"
+
+#: ../src/netstat.c:1425
+msgid ""
+"usage: netstat [-veenNcCF] [<Af>] -r         netstat "
+"{-V|--version|-h|--help}\n"
+msgstr ""
+"syntaxe: netstat [-veenNcCF] [<Af>] -r         netstat "
+"{-V|--version|-h|--help}\n"
+
+#: ../src/netstat.c:1426
+msgid "       netstat [-vnNcaeol] [<Socket> ...]\n"
+msgstr "       netstat [-vnNcaeol] [<Socket> ...]\n"
+
+#: ../src/netstat.c:1427
+msgid ""
+"       netstat { [-veenNac] -i | [-cnNe] -M | -s }\n"
+"\n"
+msgstr ""
+"       netstat { [-veenNac] -i | [-cnNe] -M | -s }\n"
+"\n"
+
+#: ../src/netstat.c:1429
+msgid "        -r, --route              display routing table\n"
+msgstr "        -r, --route              affiche la table de routage\n"
+
+#: ../src/netstat.c:1430
+msgid "        -i, --interfaces         display interface table\n"
+msgstr "        -i, --interfaces         affiche la table d'interfaces\n"
+
+#: ../src/netstat.c:1431
+msgid "        -g, --groups             display multicast group memberships\n"
+msgstr ""
+"        -g, --groups             affiche les membres d'un groupe multicast\n"
+
+#: ../src/netstat.c:1432
+msgid ""
+"        -s, --statistics         display networking statistics (like SNMP)\n"
+msgstr ""
+"        -s, --statistics         affiche les statistiques réseau (comme "
+"SNMP)\n"
+
+#: ../src/netstat.c:1434
+msgid ""
+"        -M, --masquerade         display masqueraded connections\n"
+"\n"
+msgstr ""
+"        -M, --masquerade         affiche les connexions masquées\n"
+"\n"
+
+#: ../src/netstat.c:1438
+msgid "        -N, --symbolic           resolve hardware names\n"
+msgstr "        -N, --symbolic           résoud les noms matériels\n"
+
+#: ../src/netstat.c:1439
+#, fuzzy
+msgid "        -e, --extend             display other/more information\n"
+msgstr ""
+"        -e, --extend             affiche d'autres/plus d'informations\n"
+
+#: ../src/netstat.c:1440
+msgid "        -p, --programs           display PID/Program name for sockets\n"
+msgstr ""
+"        -p, --programs           affiche le nom du programme/PID des "
+"sockets\n"
+
+#: ../src/netstat.c:1441
+msgid ""
+"        -c, --continuous         continuous listing\n"
+"\n"
+msgstr ""
+"        -c, --continuous         listing continu\n"
+"\n"
+
+#: ../src/netstat.c:1442
+msgid "        -l, --listening          display listening server sockets\n"
+msgstr ""
+"        -l, --listening          affiche les sockets du serveur à l'écoute\n"
+
+#: ../src/netstat.c:1443
+msgid ""
+"        -a, --all, --listening   display all sockets (default: connected)\n"
+msgstr ""
+"        -a, --all, --listening   affiche toutes les prises (défaut: "
+"connectés)\n"
+
+#: ../src/netstat.c:1444
+msgid "        -o, --timers             display timers\n"
+msgstr "        -o, --timers             affiche les timers\n"
+
+#: ../src/netstat.c:1445
+#, fuzzy
+msgid ""
+"        -F, --fib                display Forwarding Information Base "
+"(default)\n"
+msgstr ""
+"        -F, --fib                affiche la Forwarding Infomation Base "
+"(défaut)\n"
+
+#: ../src/netstat.c:1446
+msgid ""
+"        -C, --cache              display routing cache instead of FIB\n"
+"\n"
+msgstr ""
+"        -C, --cache              affiche le cache de routage au lieu de FIB\n"
+"\n"
+
+#: ../src/netstat.c:1448
+msgid ""
+"  <Socket>={-t|--tcp} {-u|--udp} {-w|--raw} {-x|--unix} --ax25 --ipx "
+"--netrom\n"
+msgstr ""
+"  <Socket>={-t|--tcp} {-u|--udp} {-w|--raw} {-x|--unix} --ax25 --ipx "
+"--netrom\n"
+
+#: ../src/netstat.c:1449
+#, c-format
+msgid "  <AF>=Use '-A <af>' or '--<af>' Default: %s\n"
+msgstr "  <AF>=Utiliser '-A <af>' ou '--<af>' Défaut: %s\n"
+
+#: ../src/netstat.c:1450
+msgid "  List of possible address families (which support routing):\n"
+msgstr "  Liste les familles d'adresses possibles (supportant le routage):\n"
+
+#: ../src/netstat.c:1663
+msgid "Active Internet connections "
+msgstr "Connexions Internet actives "
+
+#: ../src/netstat.c:1673
+msgid ""
+"\n"
+"Proto Recv-Q Send-Q Local Address           Foreign Address         State    "
+"  "
+msgstr ""
+"\n"
+"Proto Recv-Q Send-Q Adresse locale          Adresse distante        Etat     "
+"  "
+
+#: ../src/netstat.c:1675
+msgid " User       Inode     "
+msgstr " Utilisatr  Inode     "
+
+#: ../src/netstat.c:1678
+msgid " Timer"
+msgstr " Timer"
+
+#: ../src/netstat.c:1708
+msgid "IPv4 Group Memberships\n"
+msgstr ""
+
+#: ../src/netstat.c:1709
+msgid "Interface       RefCnt Group\n"
+msgstr ""
+
+#: ../src/statistics.c:45
+msgid "ICMP input histogram:"
+msgstr "Histogramme d'entrée ICMP"
+
+#: ../src/statistics.c:46
+msgid "ICMP output histogram:"
+msgstr "Histogramme de sortie ICMP"
+
+#: ../src/statistics.c:63
+#, c-format
+msgid "Forwarding is %s"
+msgstr "Réacheminement est %s"
+
+#: ../src/statistics.c:64
+#, c-format
+msgid "Default TTL is %d"
+msgstr "TTL par défaut est %d"
+
+#: ../src/statistics.c:65
+#, c-format
+msgid "%d total packets received"
+msgstr "%d paquets totaux reçus"
+
+#: ../src/statistics.c:66
+#, c-format
+msgid "%d with invalid headers"
+msgstr "%d avec en-tête invalides"
+
+#: ../src/statistics.c:67
+#, c-format
+msgid "%d with invalid addresses"
+msgstr "%d avec adresses invalides"
+
+#: ../src/statistics.c:68
+#, c-format
+msgid "%d forwarded"
+msgstr "%d réacheminées"
+
+#: ../src/statistics.c:69
+#, c-format
+msgid "%d with unknown protocol"
+msgstr "%d avec protocole inconnu"
+
+#: ../src/statistics.c:70
+#, c-format
+msgid "%d incoming packets discarded"
+msgstr "%d paquets entrant jetés"
+
+#: ../src/statistics.c:71
+#, c-format
+msgid "%d incoming packets delivered"
+msgstr "%d paquets entrant délivrés"
+
+#: ../src/statistics.c:72
+#, c-format
+msgid "%d requests sent out"
+msgstr "%d requêtes envoyées"
+
+#. ?
+#: ../src/statistics.c:73
+#, c-format
+msgid "%d outgoing packets dropped"
+msgstr "%d paquets sortant jetés"
+
+#: ../src/statistics.c:74
+#, c-format
+msgid "%d dropped because of missing route"
+msgstr "%d jetés pour cause de route manquante"
+
+#: ../src/statistics.c:75
+#, c-format
+msgid "%d fragments dropped after timeout"
+msgstr "%d fragments jetés après timeout"
+
+#: ../src/statistics.c:76
+#, c-format
+msgid "%d reassemblies required"
+msgstr "%d nécessitant un réassemblage"
+
+#. ?
+#: ../src/statistics.c:77
+#, c-format
+msgid "%d packets reassembled ok"
+msgstr "%d paquets réassemblés correctement"
+
+#: ../src/statistics.c:78
+#, c-format
+msgid "%d packet reassemblies failed"
+msgstr "%d paquets mal réassemblés"
+
+#: ../src/statistics.c:79
+#, c-format
+msgid "%d fragments received ok"
+msgstr "%d fragments reçus correctement"
+
+#: ../src/statistics.c:80
+#, c-format
+msgid "%d fragments failed"
+msgstr "%d fragments en échec"
+
+#: ../src/statistics.c:81
+#, c-format
+msgid "%d fragments created"
+msgstr "%d fragments créés"
+
+#: ../src/statistics.c:86
+#, c-format
+msgid "%d ICMP messages received"
+msgstr "%d messages ICMP reçus"
+
+#: ../src/statistics.c:87
+#, c-format
+msgid "%d input ICMP message failed"
+msgstr "%d messages d'entrée ICMP en échec"
+
+#: ../src/statistics.c:88 ../src/statistics.c:101
+#, c-format
+msgid "destination unreachable: %d"
+msgstr "destination injoignable: %d"
+
+#: ../src/statistics.c:89
+#, c-format
+msgid "timeout in transit: %d"
+msgstr "timeout en transmission: %d"
+
+#: ../src/statistics.c:90 ../src/statistics.c:103
+#, c-format
+msgid "wrong parameters: %d"
+msgstr "mauvais paramètre: %d"
+
+#. ?
+#: ../src/statistics.c:91
+#, c-format
+msgid "source quenchs: %d"
+msgstr "Source Quenchs: %d"
+
+#: ../src/statistics.c:92
+#, c-format
+msgid "redirects: %d"
+msgstr "Redirections: %d"
+
+#: ../src/statistics.c:93
+#, c-format
+msgid "echo requests: %d"
+msgstr "requêtes echo: %d"
+
+#: ../src/statistics.c:94 ../src/statistics.c:107
+#, c-format
+msgid "echo replies: %d"
+msgstr "réponses echo: %d"
+
+#: ../src/statistics.c:95
+#, c-format
+msgid "timestamp request: %d"
+msgstr "requêtes datées: %d"
+
+#: ../src/statistics.c:96
+#, c-format
+msgid "timestamp reply: %d"
+msgstr "réponses datées: %d"
+
+#: ../src/statistics.c:97
+#, c-format
+msgid "address mask request: %d"
+msgstr "requêtes de masque d'adresse: %d"
+
+#. ?
+#: ../src/statistics.c:98
+msgid "address mask replies"
+msgstr "réponses de masque d'adresses"
+
+#. ?
+#: ../src/statistics.c:99
+#, c-format
+msgid "%d ICMP messages sent"
+msgstr "%d messages ICMP envoyés"
+
+#: ../src/statistics.c:100
+#, c-format
+msgid "%d ICMP messages failed"
+msgstr "%d messages ICMP en échec"
+
+#: ../src/statistics.c:102
+#, c-format
+msgid "time exceeded: %d"
+msgstr "temps dépassé: %d"
+
+#. ?
+#: ../src/statistics.c:104
+#, c-format
+msgid "source quench: %d"
+msgstr "Source Quench: %d"
+
+#: ../src/statistics.c:105
+#, c-format
+msgid "redirect: %d"
+msgstr "redirection: %d"
+
+#: ../src/statistics.c:108
+#, c-format
+msgid "timestamp requests: %d"
+msgstr "requêtes datées: %d"
+
+#: ../src/statistics.c:109
+#, c-format
+msgid "timestamp replies: %d"
+msgstr "réponses datées: %d"
+
+#: ../src/statistics.c:110
+#, c-format
+msgid "address mask requests: %d"
+msgstr "requêtes de masque d'adresse: %d"
+
+#: ../src/statistics.c:111
+#, c-format
+msgid "address mask replies: %d"
+msgstr "réponses de masque d'adresse: %d"
+
+#: ../src/statistics.c:116
+#, c-format
+msgid "RTO algorithm is %s"
+msgstr "algorithme RTO est %s"
+
+#: ../src/statistics.c:120
+#, c-format
+msgid "%d active connection openings"
+msgstr "%d ouvertures de connexions actives"
+
+#: ../src/statistics.c:121
+#, c-format
+msgid "%d passive connection openings"
+msgstr "%d ouvertures de connexions passives"
+
+#: ../src/statistics.c:122
+#, c-format
+msgid "%d failed connection attempts"
+msgstr "%d tentatives de connexion échouées"
+
+#: ../src/statistics.c:123
+#, c-format
+msgid "%d connection resets received"
+msgstr "%d réinitialisations de connexions reçues"
+
+#: ../src/statistics.c:124
+#, c-format
+msgid "%d connections established"
+msgstr "%d connexions établies"
+
+#: ../src/statistics.c:125
+#, c-format
+msgid "%d segments received"
+msgstr "%d segments reçus"
+
+#: ../src/statistics.c:126
+#, c-format
+msgid "%d segments sent out"
+msgstr "%d segments envoyés"
+
+#: ../src/statistics.c:127
+#, c-format
+msgid "%d segments retransmitted"
+msgstr "%d segments retransmis"
+
+#: ../src/statistics.c:128
+#, c-format
+msgid "%d bad segments received"
+msgstr "%d mauvais segments reçus"
+
+#: ../src/statistics.c:129
+#, c-format
+msgid "%d resets sent"
+msgstr "%d réinitialisations envoyées"
+
+#: ../src/statistics.c:134
+#, c-format
+msgid "%d packets received"
+msgstr "%d paquets reçus"
+
+#: ../src/statistics.c:135
+#, c-format
+msgid "%d packets to unknown port received"
+msgstr "%d paquets reçus pour un port inconnu"
+
+#: ../src/statistics.c:136
+#, c-format
+msgid "%d packet receive errors"
+msgstr "%d erreurs en réception de paquets"
+
+#: ../src/statistics.c:137
+#, c-format
+msgid "%d packets sent"
+msgstr "%d paquets envoyés"
+
+#: ../src/statistics.c:142
+#, c-format
+msgid "%d SYN cookies sent"
+msgstr ""
+
+#: ../src/statistics.c:143
+#, c-format
+msgid "%d SYN cookies received"
+msgstr "%d SYN-Cookies reçus"
+
+#: ../src/statistics.c:144
+#, c-format
+msgid "%d invalid SYN cookies received"
+msgstr "%d SYN-Cookies reçus incorrects"
+
+#: ../src/statistics.c:146
+#, c-format
+msgid "%d resets received for embryonic SYN_RECV sockets"
+msgstr "%d réinitialisations reçues pour sockets SYN_RECV embryonnaires"
+
+#: ../src/statistics.c:148
+#, c-format
+msgid "%d packets pruned from receive queue because of socket buffer overrun"
+msgstr ""
+"%d paquets supprimés de la file de réception en raison de tampon de sockets "
+"plein"
+
+#. obsolete: 2.2.0 doesn't do that anymore
+#: ../src/statistics.c:151
+#, c-format
+msgid "%d packets pruned from out-of-order queue"
+msgstr "%d paquets supprimés de la file hors service"
+
+#: ../src/statistics.c:152
+#, c-format
+msgid ""
+"%d packets dropped from out-of-order queue because of socket buffer overrun"
+msgstr ""
+"%d paquets jetés de la file hors service en raison de tampon de sockets plein"
+
+#: ../src/statistics.c:154
+#, c-format
+msgid "%d ICMP packets dropped because they were out-of-window"
+msgstr "%d ICMP paquets jetés car hors de la fenêtre"
+
+#: ../src/statistics.c:156
+#, c-format
+msgid "%d ICMP packets dropped because socket was locked"
+msgstr "%d paquets ICMP jetés car la socket a été vérouillée"
+
+#: ../src/statistics.c:222
+msgid "enabled"
+msgstr "activée"
+
+#: ../src/statistics.c:222
+msgid "disabled"
+msgstr "désactivée"
+
+#: ../src/statistics.c:272
+#, c-format
+msgid "unknown title %s\n"
+msgstr "titre inconnu %s\n"
+
+#: ../src/statistics.c:298
+msgid "error parsing /proc/net/snmp"
+msgstr "erreur d'analyse de /proc/net/snmp"
+
+#: ../src/statistics.c:311
+msgid "cannot open /proc/net/snmp"
+msgstr "ne peut ouvrir /proc/net/snmp"
+
+#: ../src/af.c:145 ../src/hw.c:148
+msgid "UNSPEC"
+msgstr "UNSPEC"
+
+#: ../src/af.c:147
+msgid "UNIX Domain"
+msgstr "Domaine UNIX"
+
+#: ../src/af.c:150
+msgid "DARPA Internet"
+msgstr "DARPA Internet"
+
+#: ../src/af.c:153
+msgid "IPv6"
+msgstr "IPv6"
+
+#: ../src/af.c:156 ../src/hw.c:169
+msgid "AMPR AX.25"
+msgstr "AMPR AX.25"
+
+#: ../src/af.c:159 ../src/hw.c:175
+msgid "AMPR NET/ROM"
+msgstr "AMPR NET/ROM"
+
+#: ../src/af.c:162
+msgid "Novell IPX"
+msgstr ""
+
+#: ../src/af.c:165
+msgid "Appletalk DDP"
+msgstr "Appletalk DDP"
+
+#: ../src/af.c:168 ../src/hw.c:207
+msgid "Econet"
+msgstr "Econet"
+
+#: ../src/af.c:171 ../src/hw.c:172
+msgid "AMPR ROSE"
+msgstr "AMPR ROSE"
+
+#: ../src/af.c:174 ../src/hw.c:160
+msgid "Ash"
+msgstr "Ash"
+
+#: ../src/af.c:232
+msgid "Please don't supply more than one address family.\n"
+msgstr "Ne fournissez pas plus d'une famille d'adresses SVP.\n"
+
+#: ../src/af.c:293
+msgid "Too much address family arguments.\n"
+msgstr "Trop d'arguments de familles d'adresses.\n"
+
+#: ../src/af.c:304
+#, c-format
+msgid "Unknown address family `%s'.\n"
+msgstr "Famille d'adresses inconnue `%s'.\n"
+
+#: ../src/unix.c:56 ../src/unix.c:76
+msgid "[NONE SET]"
+msgstr "[INDEFINI]"
+
+#: ../src/getroute.c:97
+#, c-format
+msgid "Address family `%s' not supported.\n"
+msgstr "Famille d'adresses `%s' non supportée.\n"
+
+#: ../src/getroute.c:103
+#, c-format
+msgid "No routing for address family `%s'.\n"
+msgstr "Pas de routage pour la famille d'adresses `%s'.\n"
+
+#: ../src/hw.c:147
+msgid "Local Loopback"
+msgstr "Boucle locale"
+
+#: ../src/hw.c:150
+msgid "Serial Line IP"
+msgstr "IP ligne série"
+
+#: ../src/hw.c:151
+msgid "VJ Serial Line IP"
+msgstr "IP ligne série - VJ "
+
+#: ../src/hw.c:152
+msgid "6-bit Serial Line IP"
+msgstr "IP ligne série - 6 bits"
+
+#: ../src/hw.c:153
+msgid "VJ 6-bit Serial Line IP"
+msgstr "IP ligne série - 6 bits VJ"
+
+#: ../src/hw.c:154
+msgid "Adaptive Serial Line IP"
+msgstr "IP ligne série adaptative"
+
+#: ../src/hw.c:157
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../src/hw.c:163
+msgid "Fiber Distributed Data Interface"
+msgstr "Fiber Distributed Data Interface"
+
+#: ../src/hw.c:166
+msgid "HIPPI"
+msgstr "HIPPI"
+
+#: ../src/hw.c:178
+msgid "IPIP Tunnel"
+msgstr "IPIP Tunnel"
+
+#: ../src/hw.c:181
+msgid "Point-to-Point Protocol"
+msgstr "Protocole Point-à-Point"
+
+#: ../src/hw.c:184
+msgid "(Cisco)-HDLC"
+msgstr "(Cisco)-HDLC"
+
+#: ../src/hw.c:185
+msgid "LAPB"
+msgstr "LAPB"
+
+#: ../src/hw.c:188
+msgid "ARCnet"
+msgstr "ARCnet"
+
+#: ../src/hw.c:191
+msgid "Frame Relay DLCI"
+msgstr "Frame Relay DLCI"
+
+#: ../src/hw.c:192
+msgid "Frame Relay Access Device"
+msgstr "Périphériue d'accès Frame Relay"
+
+#: ../src/hw.c:195
+msgid "IPv6-in-IPv4"
+msgstr "IPv6-dans-IPv4"
+
+#: ../src/hw.c:198
+#, fuzzy
+msgid "IrLAP"
+msgstr "LAPB"
+
+#: ../src/hw.c:201
+msgid "16/4 Mbps Token Ring"
+msgstr ""
+
+#: ../src/hw.c:203
+msgid "16/4 Mbps Token Ring (New)"
+msgstr ""
+
+#: ../src/interface.c:124
+#, c-format
+msgid "warning: no inet socket available: %s\n"
+msgstr "attention: pas de socket inet disponible: %s\n"
+
+#: ../src/interface.c:270
+#, c-format
+msgid "Warning: cannot open %s (%s). Limited output.\n"
+msgstr ""
+
+#. Give better error message for this case.
+#: ../src/interface.c:504
+msgid "Device not found"
+msgstr "Périphérique non trouvé"
+
+#: ../src/interface.c:508
+#, c-format
+msgid "%s: error fetching interface information: %s\n"
+msgstr "%s: erreur lors de la recherche d'infos sur l'interface: %s\n"
+
+#: ../src/sockets.c:59
+msgid "No usable address families found.\n"
+msgstr "Pas de famille d'adresses utilisable trouvée.\n"
+
+#~ msgid ""
+#~ "   This comand can get or set the hostname or the NIS domainname. You can\n"
+#~ msgstr ""
+#~ "   Cette commande ne peut obtenir ou définir le nom d'hôte ou le domaine "
+#~ "NIS. Vous pouvez\n"
+
+#~ msgid ""
+#~ "   also get the DNS domain or the FQDN (fully qualified domain name).\n"
+#~ msgstr ""
+#~ "   aussi obtenir le domaine DNS ou le FQDN (fully qualified domain name).\n"
+
+#~ msgid ""
+#~ "   Unless you are using bind or NIS for host lookups you can change the\n"
+#~ msgstr ""
+#~ "   Sauf si vous utilisez bind ou NIS pour les recherches d'hôtes, vous "
+#~ "pouvez changer le\n"
+
+#~ msgid ""
+#~ "   FQDN (Fully Qualified Domain Name) and the DNS domain name (which is\n"
+#~ msgstr ""
+#~ "   FQDN (Fully Qualified Domain Name) et le nom de domaine DNS (qui fait\n"
+
+#~ msgid "   part of the FQDN) in the /etc/hosts file.\n"
+#~ msgstr "   partie du FQDN) dans le fichier /etc/hosts.\n"
+
+#~ msgid "IPX"
+#~ msgstr "IPX"
+
+#~ msgid "slattach: unsupported protocol %s\n"
+#~ msgstr "slattach: protocole non supporté %s\n"
